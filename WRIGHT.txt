@@ -1,0 +1,196 @@
+<html>
+ <head>
+  <title>
+   Portfolio
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        .header .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        .header .logo {
+            margin-right: 10px;
+        }
+        .header .logo img {
+            width: 40px;
+            height: 40px;
+        }
+        .header .name-profession {
+            display: flex;
+            flex-direction: column;
+        }
+        .header .name {
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .header .profession {
+            font-size: 14px;
+            font-weight: 400;
+            color: #666666;
+        }
+        .header nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333333;
+            font-weight: 500;
+        }
+        .header .contact-btn {
+            background-color: #4CAF50;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .intro {
+            text-align: center;
+            margin: 50px 0;
+        }
+        .intro h1 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .intro p {
+            font-size: 18px;
+            font-weight: 400;
+            color: #666666;
+        }
+        .screenshots {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 50px 0;
+        }
+        .screenshots img {
+            width: 200px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+        .project-description {
+            text-align: center;
+            margin: 50px 0;
+        }
+        .project-description h2 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .project-description p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #666666;
+            margin-bottom: 20px;
+        }
+        .project-description .view-project-btn {
+            background-color: #ffffff;
+            color: #333333;
+            padding: 10px 20px;
+            border: 1px solid #333333;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            border-top: 1px solid #e0e0e0;
+        }
+        .footer .social-icons i {
+            margin: 0 10px;
+            color: #666666;
+            font-size: 20px;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <header class="header">
+    <div class="logo-container">
+     <div class="logo">
+      <img alt="Logo" height="40" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-7aEo4kR59DwaAYUWVPtTpEE9.png?st=2024-09-16T20%3A18%3A15Z&amp;se=2024-09-16T22%3A18%3A15Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-15T23%3A16%3A33Z&amp;ske=2024-09-16T23%3A16%3A33Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=3udv1hyhQOw/kw39bB7O630cWnqgBgYKGMnpXk5XenU%3D" width="40"/>
+     </div>
+     <div class="name-profession">
+      <div class="name">
+       John Wright-Nyinfa
+      </div>
+      <div class="profession">
+       Product Designer
+      </div>
+     </div>
+    </div>
+    <nav>
+     <a href="#">
+      Work
+     </a>
+     <a href="#">
+      About
+     </a>
+     <a href="#">
+      Snippets
+     </a>
+    </nav>
+    <a class="contact-btn" href="#">
+     Get in touch
+    </a>
+   </header>
+   <section class="intro">
+    <h1>
+     Hello, we should design software paradigms that embody wisdom and feel natural
+    </h1>
+    <p>
+     On my journey, I led design and research to make hiring human at Amazon, and built a financial wellness system at Acorns.
+    </p>
+   </section>
+   <section class="screenshots">
+    <img alt="Screenshot of a social app showing a group of people partying" height="400" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-gi9y0NXR4VbBrK3vDiI57dSz.png?st=2024-09-16T20%3A15%3A46Z&amp;se=2024-09-16T22%3A15%3A46Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-15T23%3A58%3A51Z&amp;ske=2024-09-16T23%3A58%3A51Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=wB5B%2BBHEkGSC0gaojxtwRNYBRdO9tj71MZbiQUB5hDY%3D" width="200"/>
+    <img alt="Screenshot of a social app showing a streaks page" height="400" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-I5bvhF4B6PA7HzYlstQJTP1F.png?st=2024-09-16T20%3A15%3A49Z&amp;se=2024-09-16T22%3A15%3A49Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-16T00%3A03%3A39Z&amp;ske=2024-09-17T00%3A03%3A39Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=1bxkKCrj2SnBGre5yotR6XqZ4uUDWskh9dYr37IhkvI%3D" width="200"/>
+    <img alt="Screenshot of a social app showing a camera interface" height="400" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-NRvZFVfQkfyel90rrZfYx4wN.png?st=2024-09-16T20%3A15%3A46Z&amp;se=2024-09-16T22%3A15%3A46Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-15T23%3A46%3A43Z&amp;ske=2024-09-16T23%3A46%3A43Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=2V19SHlltkR7sF31b0PwX/BnhMu2j9IpnPUwH1janKQ%3D" width="200"/>
+    <img alt="Screenshot of a social app showing a gallery of images" height="400" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-Hh5RPsKhtBPsWCFSiEKnUJ6x/user-8qgiVpCV0U0b7zDjfFInHgjl/img-z6VaqmNPc3eaJXINkMIpgL8b.png?st=2024-09-16T20%3A15%3A48Z&amp;se=2024-09-16T22%3A15%3A48Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-16T06%3A16%3A38Z&amp;ske=2024-09-17T06%3A16%3A38Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=G8A6qOzvU%2BSGddLcNYfs6E4Qfe2iKiZ5b8XuP2YNABE%3D" width="200"/>
+   </section>
+   <section class="project-description">
+    <h2>
+     Building Habits Through Social Connection
+    </h2>
+    <p>
+     Rituals is a consumer social platform that encourages users to establish daily habits through check-ins and streaks.
+    </p>
+    <a class="view-project-btn" href="#">
+     View Project
+    </a>
+   </section>
+   <footer class="footer">
+    <div class="social-icons">
+     <i class="fab fa-twitter">
+     </i>
+     <i class="fab fa-linkedin">
+     </i>
+     <i class="fab fa-github">
+     </i>
+    </div>
+   </footer>
+  </div>
+ </body>
+</html>

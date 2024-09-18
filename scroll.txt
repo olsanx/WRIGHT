@@ -1,0 +1,78 @@
+<section class="works-section">
+  <div class="works-container">
+    <img src="work1.jpg" alt="Work 1" class="work-item">
+    <img src="work2.jpg" alt="Work 2" class="work-item">
+    <img src="work3.jpg" alt="Work 3" class="work-item">
+    <img src="work4.jpg" alt="Work 4" class="work-item">
+    <!-- Add more images -->
+  </div>
+</section>
+
+
+
+.works-section {
+  width: 1120px;
+  margin: 0 auto; /* Center the section */
+  overflow: hidden; /* Hide overflow */
+}
+
+.works-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto; /* Horizontal scrolling */
+  scroll-behavior: smooth; /* Smooth scroll */
+  cursor: grab; /* Show grab cursor to indicate draggable behavior */
+}
+
+/* Hide scrollbars */
+.works-container::-webkit-scrollbar {
+  display: none;
+}
+
+.works-container {
+  scrollbar-width: none; /* For Firefox */
+}
+
+.work-item {
+  flex: 0 0 auto;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+
+
+const worksContainer = document.querySelector('.works-container');
+
+let isDown = false;
+let startX;
+let scrollLeft;
+
+worksContainer.addEventListener('mousedown', (e) => {
+  isDown = true;
+  worksContainer.classList.add('active'); // Add visual feedback, if needed
+  startX = e.pageX - worksContainer.offsetLeft;
+  scrollLeft = worksContainer.scrollLeft;
+  worksContainer.style.cursor = 'grabbing'; // Change cursor to grabbing when clicked
+});
+
+worksContainer.addEventListener('mouseleave', () => {
+  isDown = false;
+  worksContainer.classList.remove('active');
+  worksContainer.style.cursor = 'grab'; // Reset cursor to grab when mouse leaves
+});
+
+worksContainer.addEventListener('mouseup', () => {
+  isDown = false;
+  worksContainer.classList.remove('active');
+  worksContainer.style.cursor = 'grab'; // Reset cursor to grab after mouse up
+});
+
+worksContainer.addEventListener('mousemove', (e) => {
+  if (!isDown) return; // Stop the function from running if not holding the mouse down
+  e.preventDefault();
+  const x = e.pageX - worksContainer.offsetLeft;
+  const walk = (x - startX) * 3; // Multiply by 3 for faster scrolling
+  worksContainer.scrollLeft = scrollLeft - walk;
+});

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: .56rem;
+}
+
+.logo img {
+  width: 2.375rem;
+  height: 2.18rem;
+}
+
+.name-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: .9rem;
+  font-weight: 600;
+  line-height: 1.225rem;
+  color: #3C3C3B;
+  margin-bottom: .08rem;
+}
+
+.title {
+  font-size: .75rem;
+  font-weight: 400;
+  color: #7A7A7A;
+}
+
+.nav-links {
+  position: relative;
+  margin: 0 .938rem;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: .813rem;
+  font-weight: 600; 
+  color:#363330;
+  transition: color 0.3s ease;
+  display: inline-block;
+}
+
+.nav-links::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 60%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0.5px;
+  background-color: #363330;
+  border-bottom: 0.5px dashed #363330;
+  transition: width 0.3s ease;
+}
+
+.nav-links.active::after {
+  width: 100%;
+}
+
+.git-button {
+  background:#3C3C3B;
+  color: #FFFFFF;
+  margin-left: 0.6rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: .433rem;
+  text-decoration: none;
+  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+}
+
+.git-button:hover {
+  cursor: pointer;
+}
+
+.green {
+  margin-right: .34rem;
+}
+
+.arrow {
+  margin-left: .24rem;
+}
+
+.header-hr {
+  max-width: 75rem;
+  margin: 0 auto;
+  height: 1px;
+  border: none;
+  background-color: #f0eded;
+}
+
+#intro {
+  max-width: 70rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 2.013rem;
+}
+
+.intro-title {
+  margin-top: 3.125rem; 
+  font-weight: 500;
+  font-size: 2rem;
+  max-width: 35rem;
+  line-height: 2.4rem;
+}
+
+.intro-story {
+  font-weight: 400;
+  font-size: .895rem;
+  max-width: 27rem;
+  line-height: 1.269rem;
+}
+
+
+
+
+
+
+
+
+
+
+

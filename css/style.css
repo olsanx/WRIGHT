@@ -12,12 +12,44 @@ body {
 
 
 .nav-container {
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  right: 0;
+  z-index: 9999;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
   max-width: 70rem;
   margin: 0 auto;
+  background: #FFFFFF;
+}
+
+.fade-in {
+  animation: fadeIn 0.2s ease-in forwards;
+}
+
+.fade-out {
+  animation: fadeOut 0.2s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 .logo-container {
@@ -108,7 +140,12 @@ body {
 }
 
 .header-hr {
-  max-width: 75rem;
+  position: fixed;
+  top: 70px; 
+  left: 0; 
+  right: 0;
+  z-index: 9999;
+  max-width: 70rem;
   margin: 0 auto;
   height: 1px;
   border: none;
@@ -119,7 +156,7 @@ body {
   max-width: 70rem;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: 5rem auto 0;
   gap: 2.013rem;
 }
 
@@ -137,6 +174,120 @@ body {
   max-width: 27rem;
   line-height: 1.269rem;
 }
+
+#work {
+  display: flex;
+  flex-direction: column;
+  width: 70rem;
+  margin: 6rem auto 4rem;
+}
+
+.visual-container {
+  margin-bottom: 5rem;
+}
+.visual {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.visual img {
+  margin-right: 4.5px;
+}
+
+.home-img {
+  border-radius: 0.633rem 0.633rem 0;
+}
+
+.moments {
+  width: 17rem;
+  height: 39.127rem;
+  border-radius: 0.633rem 0.633rem 0.633rem 0;
+  background: #131417;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.moments::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+.moments:active {
+  cursor: grabbing;
+}
+
+.ritualgoal {
+  margin: 0 auto;
+}
+
+.notch {
+  margin-top: 5.9rem;
+  margin-bottom: .8rem;
+}
+
+.ritualgoal {
+  margin-right: 5rem;
+  margin-bottom: .8rem;
+}
+
+.imagerow {
+  margin-bottom: .488rem;
+}
+
+.imagerow5 {
+  margin-bottom: 4rem;
+}
+
+.description {
+  display: flex;
+  gap: 30.975rem;
+  max-width: 70rem;
+}
+
+.description-text h2 {
+  font-weight: 600;
+  font-size: 1.375rem;
+  color: #343433;
+}
+
+.description-text p {
+  width: 30.813rem;
+  margin-top: 0.25rem;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.225rem;
+  color: #343433;
+}
+
+.ellipses {
+  margin-top: .895rem;
+}
+
+.ellipses img {
+  margin-right: .186rem;
+}
+
+.project-btn {
+  width: 8.188rem;
+  height: 2.75rem;
+  border: 1px solid #E8E8E8;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 0.813rem;
+  cursor: pointer;
+  color: #343433;
+}
+
+
+
+
 
 
 

@@ -28,7 +28,7 @@ body {
 }
 
 .fade-in {
-  animation: fadeIn 0.5s ease-in forwards;
+  animation: fadeIn 0.2s ease-in forwards;
 }
 
 .fade-out {
@@ -133,10 +133,15 @@ body {
 }
 
 .green {
+  width: .6194rem;
+  height: .6081rem;
   margin-right: .34rem;
+  background: #2AED19;
+  border-radius: .4866rem;
 }
 
 .arrow {
+  width: .755rem;
   margin-left: .24rem;
 }
 
@@ -158,6 +163,11 @@ body {
   margin: 8.125rem auto 1.818rem;
   display: flex;
   gap: 6.497rem;
+}
+
+.selfie {
+  width: 34.1281rem;
+  height: 32.1819rem;
 }
 
 .about-dtls {

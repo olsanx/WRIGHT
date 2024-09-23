@@ -10,7 +10,6 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-
 .nav-container {
   position: fixed;
   top: 0; 
@@ -132,10 +131,15 @@ body {
 }
 
 .green {
+  width: .6194rem;
+  height: .6081rem;
   margin-right: .34rem;
+  background: #2AED19;
+  border-radius: .4866rem;
 }
 
 .arrow {
+  width: .755rem;
   margin-left: .24rem;
 }
 
@@ -192,16 +196,25 @@ body {
 }
 
 .visual img {
-  margin-right: 4.5px;
+  margin-right: 0.282rem;
 }
 
-.home-img {
+.prod-img {
   border-radius: 0.633rem 0.633rem 0;
+  width: 17.6875rem;
+  height: 39.5269rem;
 }
+
+.produ-img {
+  width: 17.6875rem;
+  height: 39.5269rem;
+}
+
+
 
 .moments {
   width: 17rem;
-  height: 39.127rem;
+  height: 39.5269rem;
   border-radius: 0.633rem 0.633rem 0.633rem 0;
   background: #131417;
   display: flex;
@@ -224,10 +237,13 @@ body {
 }
 
 .ritualgoal {
+  width: 15.8675rem;
   margin: 0 auto;
 }
 
 .notch {
+  width: 2.4819rem;
+  height: .5763rem;
   margin-top: 5.9rem;
   margin-bottom: .8rem;
 }
@@ -238,12 +254,12 @@ body {
 }
 
 .imagerow {
+  width: 15.735rem;
+  height: 39.2813rem;
   margin-bottom: .488rem;
 }
 
-.imagerow5 {
-  margin-bottom: 4rem;
-}
+
 
 .description {
   display: flex;
@@ -271,6 +287,7 @@ body {
 }
 
 .ellipses img {
+  width: 1.2281rem;
   margin-right: .186rem;
 }
 
@@ -283,6 +300,45 @@ body {
   font-size: 0.813rem;
   cursor: pointer;
   color: #343433;
+}
+
+.visual2 {
+  display: flex;
+  gap: .5rem;
+  overflow-x: auto;
+  cursor: grab;
+  margin-bottom: 1.25rem;
+  border-radius: 0.633rem;
+}
+
+.visual2::-webkit-scrollbar {
+  display: none;
+}
+
+.visual2 {
+  scrollbar-width: none;
+}
+
+.visual2:active {
+  cursor: grabbing;
+}
+
+.visual2 img {
+  width: 61.9344rem;
+}
+
+.visual3 {
+  display: flex;
+  gap: .5rem;
+  overflow-x: auto;
+  cursor: grab;
+  margin-bottom: 1.25rem;
+  border-radius: 0.633rem;
+}
+
+.velio1 {
+  width: 17.0625rem;
+  height: 39.0625rem;
 }
 
 

@@ -1,4 +1,8 @@
+
+                //NAVLINKS-SLASH//
+
 const navLinks = document.querySelectorAll('.nav-links');
+
 const activePage = localStorage.getItem('activePage');
 
 if (activePage) {
@@ -7,7 +11,7 @@ if (activePage) {
       link.classList.add('active');
     }
   });
-}
+};
 
 navLinks.forEach(link => {
   link.addEventListener('click', function() {
@@ -23,25 +27,26 @@ navLinks.forEach(link => {
 
 
 
-
+                //FADEIN_FADEOUT//
+         
 const mainContent = document.querySelector('.main-content');
 
 window.addEventListener('load', () => {
-  mainContent.classList.add('fade-in');
+mainContent.classList.add('fade-in');
 });
 
 navLinks.forEach(link => {
-  link.addEventListener('click', function(event) {
-    event.preventDefault();
+link.addEventListener('click', function(event) {
+event.preventDefault();
 
-    const clickedPage = this.getAttribute('data-page');
-    localStorage.setItem('activePage', clickedPage);
+const clickedPage = this.getAttribute('data-page');
+localStorage.setItem('activePage', clickedPage);
 
-    mainContent.classList.add('fade-out');
+mainContent.classList.add('fade-out');
 
-    setTimeout(() => {
-      window.location.href = this.href; 
-    }, 500); 
-  });
+setTimeout(() => {
+window.location.href = this.href; 
+}, 500); 
+});
 });
 

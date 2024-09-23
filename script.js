@@ -1,3 +1,6 @@
+
+               //NAVLINKS-SLASH//
+
 const navLinks = document.querySelectorAll('.nav-links');
 
 const activePage = localStorage.getItem('activePage');
@@ -8,7 +11,7 @@ if (activePage) {
       link.classList.add('active');
     }
   });
-}
+};
 
 navLinks.forEach(link => {
   link.addEventListener('click', function() {
@@ -23,7 +26,8 @@ navLinks.forEach(link => {
 
 
 
-
+                //FADEIN_FADEOUT//
+         
 const mainContent = document.querySelector('.main-content');
 
 window.addEventListener('load', () => {
@@ -78,4 +82,42 @@ momentsDiv.addEventListener('mousemove', (e) => {
   const y = e.pageY - momentsDiv.offsetTop;
   const walk = (y - startY) * 1.5; 
   momentsDiv.scrollTop = scrollTop - walk;
+});
+
+
+
+
+
+const visual2 = document.querySelector('.visual2');
+
+let isRight = false;
+let startX;
+let scrollLeft;
+
+visual2.addEventListener('mousedown', (e) => {
+  isDown = true;
+  visual2.classList.add('active'); // Optional: Add visual feedback if needed
+  startX = e.pageX - visual2.offsetLeft; // Get initial mouse X position
+  scrollLeft = visual2.scrollLeft; // Get initial scroll position
+  visual2.style.cursor = 'grabbing'; // Change cursor to grabbing when clicked
+});
+
+visual2.addEventListener('mouseleave', () => {
+  isDown = false;
+  visual2.classList.remove('active');
+  visual2.style.cursor = 'grab'; // Reset cursor to grab when mouse leaves
+});
+
+visual2.addEventListener('mouseup', () => {
+  isDown = false;
+  visual2.classList.remove('active');
+  visual2.style.cursor = 'grab'; // Reset cursor to grab after mouse up
+});
+
+visual2.addEventListener('mousemove', (e) => {
+  if (!isDown) return; // Only run this function when the mouse is down
+  e.preventDefault();
+  const x = e.pageX - visual2.offsetLeft; // Get current mouse X position
+  const walk = x - startX; // Calculate the distance moved by the mouse
+  visual2.scrollLeft = scrollLeft - walk; // Update the scroll position based on mouse movement
 });

@@ -1,0 +1,102 @@
+@media only screen and (max-width: 1145px) {
+  .nav-container {
+    padding: 1rem 0;
+    max-width: 65rem;
+  }
+
+  #intro {
+    max-width: 65rem;
+  }
+  
+  .intro-title {
+    font-size: 2rem;
+  }
+  
+  .intro-story {
+    font-weight: 400;
+  }
+
+  #work {
+    display: flex;
+    flex-direction: column;
+    width: 65rem;
+    margin: 6rem auto 4rem;
+  }
+  
+  .SW {
+    font-weight: 500;
+    margin-top: -1.625rem;
+    margin-bottom: 1.125rem;
+    font-size: .75rem;
+    max-width: 9.875rem;
+  }
+  
+  .visual-container {
+    margin-bottom: 5rem;
+  }
+  
+  .visual1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    overflow-x: auto;
+    cursor: grab;
+    border-radius: 0.5rem;
+  }
+  
+  .visual1 img {
+    margin-right: .25rem;
+  }
+  
+  .visual1::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .visual1 {
+    scrollbar-width: none;
+  }
+  
+  .visual1:active {
+    cursor: grabbing;
+  }
+  
+  .produ-img {
+    width: 18.125rem;
+    height: 39.125rem;
+    border-radius: .5rem;
+  }
+
+
+
+  .pizzaslice img {
+    width: 7.625rem;
+    height: 1.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5.5625rem;
+    margin-right: 56.5rem;
+    margin-bottom: .9375rem;
+  }
+
+  .sp-container {
+    width: 65rem;
+  }
+
+  .container1 {
+    border-radius: .5rem;
+  }
+
+  .teevid {
+    width: 15.3125rem;
+    height: 33.0625rem;
+    border-radius: .5019rem;
+    margin-top: 3.5625rem;
+    margin-left: 7.35rem;
+  }
+
+  .container4 {
+    width: 65rem;
+    border-radius: .5rem;
+  }
+}

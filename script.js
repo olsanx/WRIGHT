@@ -26,6 +26,27 @@ navLinks.forEach(link => {
 
 
 
+
+
+
+const navbar = document.querySelector('.nav-container');
+const targetSection = document.getElementById('side-projects');
+
+window.addEventListener('scroll', () => {
+  const sectionRect = targetSection.getBoundingClientRect();
+  const viewportHeight = window.innerHeight;
+
+  if (sectionRect.top <= viewportHeight * 0.10 && sectionRect.bottom >= 0) {
+    navbar.classList.add('transparent');
+  } else {
+    navbar.classList.remove('transparent');
+  }
+});
+
+
+
+
+
 //FADEIN_FADEOUT
 
 const mainContent = document.querySelector('.main-content');

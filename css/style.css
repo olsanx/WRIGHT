@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Permanent+Marker&display=swap');
 
 * {
   margin: 0;
@@ -9,6 +10,8 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+
+
 
 .nav-container {
   position: fixed;
@@ -24,6 +27,11 @@ body {
   height: 4.75rem;
   margin: 0 auto;
   background: #FFFFFF;
+  transition: background-color 0.3s ease;
+}
+
+.nav-container.transparent {
+  background-color: #F7F3EF; 
 }
 
 .fade-in {
@@ -105,7 +113,7 @@ body {
   transform: translateY(-50%);
   width: 0;
   height: 0.5px;
-  background-color: #363330;
+  background-color: #343434;
   border-bottom: 0.5px dashed #363330;
   transition: width 0.3s ease;
 }
@@ -118,17 +126,46 @@ body {
   background:#3C3C3B;
   color: #FFFFFF;
   margin-left: 0.6rem;
-  padding: 10px 20px;
+  padding: 11.4px 20px;
   border: none;
   border-radius: .433rem;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: .8131rem;
   display: inline-flex;
   align-items: center;
+  transition: box-shadow 0.3s ease;
+  transition: all 0.3s ease
 }
 
 .git-button:hover {
   cursor: pointer;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
+  color: #FF9385;
+  font-size: .85rem;
+  line-height: 145%;
+  letter-spacing: 1%;
+  border-radius: 1px solid #FF7F6D;
+  box-shadow: 0 6px 15px rgba(90, 0, 0, 0.2);
+  transform: translateY(-2px)
+}
+
+.git-button:hover .green,
+.git-button:hover .arrow {
+    display: none;
+}
+
+.git-button:hover .jet {
+  display: inline;
+}
+
+.jet {
+  width: .75rem;
+  height: .75rem;
+  margin-top: .395rem;
+  margin-left: .395rem;
+  display: none;
 }
 
 .green {
@@ -162,7 +199,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 5rem auto;
-  gap: 2.013rem;
+  gap: .875rem;
 }
 
 .intro-title {
@@ -170,14 +207,18 @@ body {
   font-weight: 500;
   font-size: 2rem;
   max-width: 35rem;
-  line-height: 2.4rem;
+  line-height: 120%;
+  color: #343433;
+  letter-spacing: -3%;
 }
 
 .intro-story {
   font-weight: 400;
-  font-size: .895rem;
-  max-width: 27rem;
-  line-height: 1.269rem;
+  font-size: .9rem;
+  max-width: 33rem;
+  line-height: 148%;
+  color: #1F1F1F;
+  letter-spacing: 1%;
 }
 
 #work {
@@ -290,19 +331,22 @@ body {
 }
 
 .description-text h2 {
-  font-weight: 600;
-  font-size: 1.375rem;
+  font-weight: 500;
+  font-size: 1.3375rem;
   color: #343433;
   width: 36.375rem;
+  letter-spacing: -2%;
+  line-height: 120%;
 }
 
 .description-text p {
   width: 30.813rem;
-  margin-top: 0.25rem;
+  margin-top: .375rem;
   font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.225rem;
-  color: #505050;
+  font-size: .8625rem;
+  letter-spacing: 0,8%;
+  line-height: 145%;
+  color: #303030;
 }
 
 .prod-descr {
@@ -325,10 +369,14 @@ body {
   height: 2.75rem;
   border: 1px solid #E8E8E8;
   border-radius: 0.5rem;
-  font-weight: 600;
-  font-size: 0.813rem;
+  font-weight: 550;
+  font-size: .8125rem;
+  line-height: 150%;
+  letter-spacing: 0.5%;
   cursor: pointer;
-  color: #343433;
+  color: #000000;
+  opacity: 50%;
+  background-color: #F2F2F2;
 }
 
 .visual2 {
@@ -408,18 +456,6 @@ body {
   cursor: grabbing;
 }
 
-.coming {
-  width: 8.188rem;
-  height: 2.75rem;
-  border: 1px solid #E8E8E8;
-  border-radius: 0.5rem;
-  font-weight: 500;
-  font-size: .8125rem;
-  cursor: pointer;
-  color: #000000;
-  opacity: 50%;
-}
-
 .travel {
   width: 5rem;
   height: 2.125rem;
@@ -496,8 +532,180 @@ body {
   margin-right: .186rem;
 }
 
+#side-projects {
+  max-width: 100%;
+  background: #F7F3EF;
+  border-top: 1px solid #EEE8E1E5;
+  border-bottom: 1px solid #EEE8E1E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.pizzaslice img {
+  width: 7.625rem;
+  height: 1.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 5.5625rem;
+  margin-right: 62.5rem;
+  margin-bottom: .9375rem;
+}
+
+.sp-container {
+  width: 70rem;
+  height: 40.2687rem;
+  opacity: 100%;
+  display: flex;
+  gap: .2412rem;
+  max-width: 100%;
+}
+
+.container1 {
+  width: 34.8744rem;
+  height: 40.2687rem;
+  background-image: url('../assets/images/teebackground.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.teevid {
+  width: 15.3125rem;
+  height: 33.0625rem;
+  border-radius: .5019rem;
+  margin-top: 3.5625rem;
+  margin-left: 9.75rem;
+}
+
+.sp2 {
+  width: 34.865rem;
+  height: 20.0087rem;
+  border-radius: .5019rem;
+}
+
+.sp3 {
+  width: 34.865rem;
+  height: 20.0087rem;
+  border-radius: .5019rem;
+}
+
+.container4 {
+  width: 70rem;
+  height: 20.0625rem;
+  background-image: url(../assets/images/frame4.png);
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  margin-top: .2506rem;
+  margin-bottom: 5.5425rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.gifs {
+  display: flex;
+  width: 46.875rem;
+  height: 7.5rem;
+  gap: 5.625rem;
+}
+
+.gifs img {
+  border-radius: 1.2119rem;
+  width: 7.5rem;
+  height: 7.5rem;
+  object-fit: cover;
+  overflow: hidden;
+  border: 7px solid black;
+}
 
 
+
+
+
+
+footer {
+  width: 100%;
+  height: 17.75rem;
+  background: #FAF8F6;
+  border-top: 1px solid #EEE8E1E5;
+  display: flex;
+  margin: 0 auto;
+  margin-top: .25rem;
+  align-items: center;
+  justify-content: center;
+  gap: 11.6875rem;
+}
+
+.footer-dtls {
+  display: flex;
+  margin: 0 auto;
+}
+
+.cat {
+  width: 27.7144rem;
+  margin-right: 80px;
+}
+
+.cat h5 {
+  width: 23.357rem;
+  font-weight: 500;
+  font-size: 1.875rem;
+  line-height: 120%;
+  display: flex;
+  letter-spacing: -2%;
+  color: #343433;
+}
+
+.cat p {
+  max-width: 22.9375rem;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 147%;
+  letter-spacing: -0.5%;
+  color: #434343;
+  margin-top: .5rem;
+}
+
+.social-container {
+  display: flex;
+}
+
+.socials {
+  max-width: 13.563rem;
+  max-height: 1.469rem;
+  display: flex;
+  gap: .9688rem;
+  margin-top: 1.50rem;
+}
+
+.sociallinks {
+  width: 7.0625rem;
+  height: 1.9375rem;
+  margin-top: 1.25rem;
+  margin-right: .625rem;
+}
+
+.X {
+  width: 1.4531rem;
+  height: 1.4531rem;
+}
+
+.X1 {
+  width: 1.5731rem;
+  height: .9375rem;
+  margin-top: .28rem;
+}
+
+.adam-image {
+  width: 30.625rem;
+  height: 10rem;
+}
 
 
 

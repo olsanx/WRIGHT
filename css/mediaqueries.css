@@ -4,6 +4,10 @@
     max-width: 65rem;
   }
 
+  .header-hr {
+    width: 65rem;
+  }
+
   #intro {
     max-width: 65rem;
   }
@@ -17,10 +21,7 @@
   }
 
   #work {
-    display: flex;
-    flex-direction: column;
     width: 65rem;
-    margin: 6rem auto 4rem;
   }
   
   .SW {
@@ -29,10 +30,6 @@
     margin-bottom: 1.125rem;
     font-size: .75rem;
     max-width: 9.875rem;
-  }
-  
-  .visual-container {
-    margin-bottom: 5rem;
   }
   
   .visual1 {
@@ -66,8 +63,6 @@
     border-radius: .5rem;
   }
 
-
-
   .pizzaslice img {
     width: 7.625rem;
     height: 1.125rem;
@@ -98,5 +93,840 @@
   .container4 {
     width: 65rem;
     border-radius: .5rem;
+  }
+}
+
+
+@media only screen and (max-width: 1070px) {
+  .nav-container {
+    padding: 2rem 0;
+    max-width: 60.5rem;
+  }
+
+  .links-container {
+    margin-right: .5rem;
+  }
+
+  .header-hr {
+    width: 59rem;
+  }
+
+  #intro {
+    max-width: 60rem;
+  }
+
+  .intro-title {
+    font-size: 1.7rem;
+  }
+
+  #work {
+    max-width: 60rem;
+  }
+
+  .description {
+    display: flex;
+    gap: 17.344rem;
+  }
+
+  .sp-container {
+    width: 60rem;
+    height: 36.2687rem;
+  }
+  
+  .container1 {
+    width: 29.8744rem;
+    height: 36.2687rem;
+  }
+
+  .teevid {
+    width: 15.3125rem;
+    height: 31.0625rem;
+    margin-top: 2.5625rem;
+    margin-left: 6.6rem;
+  }
+
+  .sp2 {
+    width: 29.865rem;
+    height: 18.0087rem;
+  }
+  
+  .sp3 {
+    width: 29.865rem;
+    height: 18.0087rem;
+  }
+
+  .container4 {
+    width: 60rem;
+    height: 18.0625rem;
+  }
+
+  .gifs {
+    display: flex;
+    width: 44.875rem;
+    height: 7rem;
+  }
+  
+  .gifs img {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .footer-dtls {
+    width: 60rem;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .cat {
+    width: 25.7144rem;
+    margin-right: 5rem;
+  }
+  
+  .cat h5 {
+    width: 21.357rem;
+    font-size: 1.775rem;
+  }
+  
+  .cat p {
+    font-size: 0.775rem;
+  }
+  
+  .adam-image {
+    width: 28.625rem;
+    height: 9.5rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav-container {
+    padding: 2rem 0;
+    max-width: 55.5rem;
+  }
+
+  .header-hr {
+    width: 55rem;
+  }
+
+  #intro {
+    max-width: 55rem;
+  }
+
+  #work {
+    max-width: 55rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .description {
+    display: flex;
+    gap: 10.344rem;
+  }
+
+  .pizzaslice img {
+    margin-right: 47.5rem;
+  }
+
+  .sp-container {
+    width: 55rem;
+  }
+  
+  .teevid {
+    margin-left: 4.7rem;
+  }
+
+  .container4 {
+    width: 55rem;
+  }
+
+  .footer-dtls {
+    width: 55rem;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .cat {
+    width: 25.7144rem;
+    margin-right: 5rem;
+  }
+  
+  .cat h5 {
+    width: 21.357rem;
+    font-size: 1.775rem;
+  }
+  
+  .cat p {
+    font-size: 0.775rem;
+  }
+  
+  .adam-image {
+    width: 28.625rem;
+    height: 9.5rem;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .nav-container {
+    padding: 2rem 0;
+    max-width: 46.5rem;
+  }
+
+  .header-hr {
+    width: 46rem;
+  }
+
+  #intro {
+    max-width: 46rem;
+    margin: 4rem auto;
+  }
+
+  .intro-title {
+    font-size: 1.625rem;
+    width: 22.375rem;
+  }
+  
+  .intro-story {
+    font-size: .7875rem;
+    width: 22.25rem;
+  }
+
+  #work {
+    max-width: 46rem;
+    margin: 3rem auto 4rem;
+  }
+
+  .work-visual {
+    margin-bottom: 4rem;
+  }
+
+  .produ-img {
+    width: 17.3775rem;
+    height: 37.5rem;
+    border-radius: .5rem;
+  }
+
+  .visual2 video {
+    width: 59.1025rem;
+    height: 37.4475rem;
+  }
+
+  .visual2 img {
+    width: 59.1025rem;
+    height: 37.4475rem;
+  }
+
+  .description {
+    display: flex;
+    gap: 12.344rem;
+  }
+  
+  .description-text h2 {
+    font-weight: 500;
+    font-size: 1.125rem;
+    width: 22.375rem;
+  }
+  
+  .description-text p {
+    width: 26.375rem;
+    font-size: .7875rem;
+  }
+
+  .prod-descr {
+    margin-top: .875rem;
+  }
+  
+  .img2 {
+    width: 5.75rem;
+    height: 1.8687rem;
+  }
+  .img1 {
+    width: 11.1569rem;
+    height: 1.8687rem;
+    margin-right: .186rem;
+  }
+  .defi {
+    width: 3.9663rem;
+    height: 1.8731rem;
+  }
+  .web {
+    width: 5.3981rem;
+    height: 1.8731rem;
+  }
+  .travel {
+    width: 4.4044rem;
+    height: 1.8731rem;
+  }
+  .hybrid {
+    width: 5.8356rem;
+    height: 1.8731rem;
+  }
+  .music {
+    width: 6.1937rem;
+    height: 1.8731rem;
+  }
+  .fintech {
+    width: 4.8662rem;
+    height: 1.8731rem;
+  }
+
+  .video2 {
+    width: 18.125rem;
+    height: 37.59rem;
+    border-radius: .5rem;
+  }
+
+  .visual3 img {
+    width: 59.1763rem;
+    height: 37.4944rem;
+  }
+
+  .visual3 video {
+    width: 59.1763rem;
+    height: 37.4944rem;
+  }
+
+  .visual4 video {
+    width: 59.2931rem;
+    height: 37.5681rem;
+  }
+
+  .visual4 img {
+    width: 59.2931rem;
+    height: 37.5681rem;
+  }
+
+  .visual5 img {
+    width: 59.2931rem;
+    height: 37.4944rem;
+  }
+
+
+  .project-btn {
+    width: 7.8125rem;
+    height: 2.375rem;
+    font-size: .7488rem;
+  }
+
+  .pizzaslice img {
+    margin-right: 38.5rem;
+  }
+
+  .sp-container {
+    width: 46rem;
+    height: 32.17rem;
+  }
+  
+  .container1 {
+    width: 39.8744rem;
+    height: 32.17rem;
+  }
+
+  .teevid {
+    width: 15.3125rem;
+    height: 27.0625rem;
+    margin-top: 2.5625rem;
+    margin-left: 2rem;
+  }
+
+  .sp2 {
+    width: 25.865rem;
+    height: 16.0087rem;
+  }
+  
+  .sp3 {
+    width: 25.865rem;
+    height: 16.0087rem;
+  }
+
+  .container2-3 {
+    height: 514.72px;
+  }
+
+  .container4 {
+    width: 46rem;
+  }
+
+  .gifs {
+    display: flex;
+    width: 38.875rem;
+    height: 7rem;
+  }
+  
+  .gifs img {
+    width: 5.1781rem;
+    height: 5.1781rem;
+  }
+
+  footer {
+    gap: 1.6875rem;
+  }
+
+  .footer-dtls {
+    width: 49rem;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .cat {
+    width: 22.375rem;
+    margin-right: 5rem;
+  }
+  
+  .cat h5 {
+    width: 21.357rem;
+    font-size: 1.625rem;
+  }
+  
+  .cat p {
+    font-size: 0.775rem;
+    width: 20.1875rem;
+  }
+  
+  .X {
+    width: 1.3356rem;
+    height: 1.3356rem;
+  }
+  
+  .X1 {
+    width: 1.4456rem;
+    height: .8612rem;
+    margin-top: .28rem;
+  }
+
+  .adam-image {
+    width: 20.375rem;
+    height: 10rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .nav-container {
+    padding: 2rem 0;
+    max-width: 40.5rem;
+  }
+  .links-container {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1.5rem;
+    height: 1.2rem;
+    cursor: pointer;
+    z-index: 10001;
+  }
+  .social-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem; 
+    width: 100%; 
+  }
+  .header-hr {
+    width: 40rem;
+  }
+  #intro {
+    max-width: 40rem;
+    margin: 4rem auto;
+  }
+  .intro-title {
+    font-size: 1.625rem;
+    width: 22.375rem;
+  }
+  .intro-story {
+    font-size: .7875rem;
+    width: 22.25rem;
+  }
+  #work {
+    max-width: 40rem;
+    margin: 3rem auto 4rem;
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+  }
+  .project-btn {
+    color: #000000;
+    opacity: 70%;
+    background-color: #F2F2F2;
+  }
+  .pizzaslice img {
+    margin-right: 28rem;
+  }
+
+  .sp-container {
+    width: 35.25rem;
+    height: 65.6049rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .container1 {
+    width: 35.25rem;
+    height: 29.1875rem;
+  }
+  .teevid {
+    width: 13.3887rem;
+    height: 25.5625rem;
+    margin-top: 1.7625rem;
+    margin-left: 11rem;
+    object-fit: inherit;
+  }
+  .sp2 {
+    width: 35.25rem;
+    height: 18.0087rem;
+  }
+  .sp3 {
+    width: 35.25rem;
+    height: 18.0087rem;
+  }
+
+  .container4 {
+    width: 35.25rem;
+    height: 26.25rem;
+  }
+
+  .gifs {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    width: 13.75rem;
+    height: 13.75rem;
+  }
+  
+  .gifs img {
+    width: 5.1781rem;
+    height: 5.1781rem;
+  }
+
+  footer {
+    height: 24.75rem;
+    gap: 1.6875rem;
+  }
+
+  .footer-dtls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 24.375rem;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .cat {
+    width: 22.375rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .cat h5 {
+    width: 21.357rem;
+    font-size: 1.625rem;
+  }
+  
+  .cat p {
+    font-size: 0.775rem;
+    width: 20.1875rem;
+    margin-bottom: -2rem;
+  }
+
+  .social-container {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    order: 2;
+  }
+  
+  .socials {
+    width: 13.563rem;
+    height: 1.469rem;
+    display: flex;
+    gap: .9688rem;
+    margin-top: .50rem;
+    position: relative;
+    bottom: 34px;
+    left: 7rem;
+
+  }
+  
+  .sociallinks {
+    width: 6.4375rem;
+    height: 1.7806rem;
+    margin-top: 1.25rem;
+    margin-right: .0563rem;
+  }
+  
+  .X {
+    width: 1.3356rem;
+    height: 1.3356rem;
+  }
+  
+  .X1 {
+    width: 1.4456rem;
+    height: .8612rem;
+    margin-top: .28rem;
+  }
+
+  .adam-image {
+    width: 22.375rem;
+    height: 10rem;
+    order: 1;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .nav-container {
+    max-width: 30.5rem;
+  }
+  .header-hr {
+    width: 30rem;
+  }
+  #intro {
+    max-width: 30rem;
+    margin: 4rem auto;
+  }
+  #work {
+    max-width: 30rem;
+    margin: 3rem auto 4rem;
+  }
+  .pizzaslice img {
+    margin-right: 23rem;
+  }
+
+  .sp-container {
+    width: 30.25rem;
+    height: 65.6049rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .container1 {
+    width: 30.25rem;
+    height: 29.1875rem;
+  }
+  .teevid {
+    width: 13.3887rem;
+    height: 25.5625rem;
+    margin-top: 1.7625rem;
+    margin-left: 8.5rem;
+    object-fit: inherit;
+  }
+  .sp2 {
+    width: 30.25rem;
+    height: 18.0087rem;
+  }
+  .sp3 {
+    width: 30.25rem;
+    height: 18.0087rem;
+  }
+
+  .container4 {
+    width: 30.25rem;
+    height: 26.25rem;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  .nav-container {
+    max-width: 25.5rem;
+  }
+  .header-hr {
+    width: 25rem;
+  }
+  #intro {
+    max-width: 25rem;
+  }
+  .SW {
+    font-weight: 500;
+    margin-top: -1.625rem;
+    margin-bottom: .9325rem;
+    font-size: .75rem;
+    max-width: 9.25rem;
+  }
+  #work {
+    max-width: 25rem;
+  }
+  .description-text p {
+    width: 22.375rem;
+  }
+  .pizzaslice img {
+    margin-right: 14.9rem;
+  }
+
+  .sp-container {
+    width: 22.375rem;
+    height: 53.9049rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .container1 {
+    width: 22.375rem;
+    height: 26.875rem;
+  }
+  .teevid {
+    width: 9.9887rem;
+    height: 21.5975rem;
+    margin-top: 1.5rem;
+    margin-left: 6rem;
+    object-fit: inherit;
+  }
+  .sp2 {
+    width: 22.375rem;
+    height: 14.375rem;
+  }
+  .sp3 {
+    width: 22.375rem;
+    height: 14.375rem;
+  }
+  .container4 {
+    width: 22.375rem;
+    height: 26.25rem;
+  }
+}
+
+
+@media only screen and (max-width: 425px) {
+  .nav-container {
+    max-width: 24.375rem;
+  }
+  .header-hr {
+    width: 24.375rem;
+  }
+  #intro {
+    max-width: 22.375rem;
+  }
+  #work {
+    max-width: 22.375rem;
+  }
+  .pizzaslice img {
+    margin-right: 14.9rem;
+  }
+
+  .sp-container {
+    width: 22.375rem;
+    height: 53.9049rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .container1 {
+    width: 22.375rem;
+    height: 26.875rem;
+  }
+  .teevid {
+    width: 9.9887rem;
+    height: 21.5975rem;
+    margin-top: 1.5rem;
+    margin-left: 6rem;
+    object-fit: inherit;
+  }
+  .sp2 {
+    width: 22.375rem;
+    height: 14.375rem;
+  }
+  .sp3 {
+    width: 22.375rem;
+    height: 14.375rem;
+  }
+  .container4 {
+    width: 22.375rem;
+    height: 26.25rem;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .nav-container {
+    padding: 2rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .nav-container {
+    max-width: 21.75rem;
+  }
+  .header-hr {
+    width: 20.375rem;
+  }
+  #intro {
+    max-width: 19.375rem;
+  }
+  .intro-title {
+    width: 18rem;
+  }
+  .intro-story {
+   width: 18rem;
+  }
+  #work {
+    max-width: 20.375rem;
+  }
+  .description-text h2 {
+    width: 18.375rem;
+  }
+  .description-text p {
+    width: 19.375rem;
+  }
+  .pizzaslice img {
+    margin-right: 13rem;
+  }
+
+  .sp-container {
+    width: 20.375rem;
+    height: 53.9049rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .container1 {
+    max-width: 20.375rem;
+    height: 26.875rem;
+  }
+  .teevid {
+    width: 9.9887rem;
+    height: 21.5975rem;
+    margin-top: 1.5rem;
+    margin-left: 6rem;
+    object-fit: inherit;
+  }
+  .sp2 {
+    width: 20.375rem;
+    height: 14.375rem;
+  }
+  .sp3 {
+    width: 20.375rem;
+    height: 14.375rem;
+  }
+  .container4 {
+    width: 20.375rem;
+    height: 26.25rem;
   }
 }

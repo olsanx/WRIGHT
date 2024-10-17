@@ -22,16 +22,46 @@
         </div>
       </div>
     </div>
+    
     <nav class="links-container">
       <a href="index.html" class="nav-links" data-page="home">Work</a>
       <a href="./index2.html" class="nav-links" data-page="about">About</a>
       <button class="git-button">
-        <span class="green"></span>
-        Get in touch
+        <span class="green"></span> Get in touch
         <img class="arrow" src="./assets/images/outwardarrow.png" alt="arrow">
         <span> <img class="jet" src="./assets/images/jet.png" alt="jet"></span>
       </button>
     </nav>
+   
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  
+    <div class="dropdown-menu">
+      <div class="worknabout">
+        <a href="index.html" class="nav-links">Work</a>
+        <a href="./index2.html" class="nav-links">About</a>
+      </div>
+
+      <button class="git-button">
+        <span class="green"></span> Get in touch
+        <img class="arrow" src="./assets/images/outwardarrow.png" alt="arrow">
+        <span> <img class="jet" src="./assets/images/jet.png" alt="jet"></span>
+      </button>
+
+      <div class="head-container">
+        <div class="socials-head">
+          <a href="https://x.com/I_triple9"><img class="X" src="./assets/images/twitter.png" alt="X fka Twitter"></a>
+          <a href="https://www.linkedin.com/in/john-wright-nyingifa/"><img class="X" src="./assets/images/linkedin.png" alt="linkedin"></a>
+          <a href="https://open.spotify.com/user/31dwwoygc5wrsgxaw6a2ojxciki4?si=kaOWaHACR2Cq_iQ_QZ_LvQ"><img class="X" src="./assets/images/spotify.png" alt="spotify"></a>
+          <a href="itriple9"><img class="X" src="./assets/images/discord.png" alt="discord"></a>
+          <a href="https://read.cv/itriple9"><img class="X" src="./assets/images/readcv.png" alt="cv logo"></a>
+          <img class="X1" src="./assets/images/lens.png" alt="black logo">
+        </div>
+      </div>
+    </div>
   </header>
   <hr class="header-hr">
   <main class="main-content">
@@ -48,12 +78,17 @@
     <div>
       <img class="SW" src="./assets/images/selctedeork.png" alt="">
     </div>
-    <div class="visual-container">
-      <div class="visual1">
-        <img class="produ-img" src="./assets/images/Home.png" alt="app-image">
-        <img class="produ-img" src="./assets/images/friends.png" alt="app-image">
-        <img class="produ-img" src="./assets/images/Camera.jpg" alt="app-image">
-        <img class="produ-img" src="./assets/images/Streaks.png" alt="app-image">
+
+    <div class="work-visual">
+      <div class="visual-container">
+        <button class="scroll-btn left-arrow">&#10094;</button> 
+        <div class="visual1">
+          <img class="produ-img" src="./assets/images/Home.png" alt="app-image">
+          <img class="produ-img" src="./assets/images/friends.png" alt="app-image">
+          <img class="produ-img" src="./assets/images/Camera.jpg" alt="app-image">
+          <img class="produ-img" src="./assets/images/Streaks.png" alt="app-image">
+        </div>
+        <button class="scroll-btn right-arrow">&#10095;</button>
       </div>
       <div class="description">
         <div class="description-text">
@@ -68,49 +103,53 @@
             <img class="img2" src="./assets/images/mobileapp.png" alt="description">
           </div>
         </div>
-        <button class="project-btn">
-          Coming Soon
-        </button>
+        <button class="project-btn">Coming Soon</button>
       </div>
     </div>
-    <div class="visual-container">
-      <div class="visual2">
-        <video class="video1" loop autoplay muted>
-          <source src="./assets/images/acm1.mp4" type="video/mp4">
-        </video>        
-        <img class="nft-img" src="./assets/images/acm2.jpg" alt="app-image">
-        <img class="stock-img" src="./assets/images/acm3.png" alt="app-image">
-        <img class="stock-img" src="./assets/images/acm4.jpg" alt="app-image">
+
+    <div class="work-visual">
+      <div class="visual-container">
+        <button class="scroll-btn left-arrow">&#10094;</button> 
+        <div class="visual2">
+          <video class="video1" loop autoplay muted>
+            <source src="./assets/images/acm1.mp4" type="video/mp4">
+          </video>        
+          <img class="nft-img" src="./assets/images/acm2.jpg" alt="app-image">
+          <img class="stock-img" src="./assets/images/acm3.png" alt="app-image">
+          <img class="stock-img" src="./assets/images/acm4.jpg" alt="app-image">
+        </div>
+        <button class="scroll-btn right-arrow">&#10095;</button>
       </div>
       <div class="description">
         <div class="description-text">
-          <h2>
-            Unlocking Potential with Custom Token ETFs
-          </h2>
+          <h2>Unlocking Potential with Custom Token ETFs</h2>
           <p>
             Atlantus Coin Market (ACM) is a decentralized finance (DeFi) platform 
-            that empowers users to create custom ETFs with their preferred tokens. 
+            that empowers users to create custom ETFs with their preferred tokens.
           </p>
           <div class="prod-descr">
             <img class="defi" src="./assets/images/defi.png" alt="description">
             <img class="web" src="./assets/images/web.png" alt="description">
           </div>
         </div>
-        <button class="project-btn">
-          Coming Soon
-        </button>
+        <button class="project-btn">Coming Soon</button>
       </div>
     </div>
-    <div class="visual-container">
-      <div class="visual3">
-        <video class="video2" loop autoplay muted>
-          <source src="./assets/images/velio1.mp4" type="video/mp4">
-        </video>
-        <img class="adv-img" src="./assets/images/velio2.jpg" alt="app-image">
-        <img class="trav-img" src="./assets/images/velio3.jpg" alt="app-image">
-        <video class="video1" loop autoplay muted>
-          <source src="./assets/images/velio4.mp4" type="video/mp4">
-        </video>
+
+    <div class="work-visual">
+      <div class="visual-container">
+        <button class="scroll-btn left-arrow">&#10094;</button> 
+        <div class="visual3">
+          <video class="video2" loop autoplay muted>
+            <source src="./assets/images/velio1.mp4" type="video/mp4">
+          </video>
+          <img class="adv-img" src="./assets/images/velio2.jpg" alt="app-image">
+          <img class="trav-img" src="./assets/images/velio3.jpg" alt="app-image">
+          <video class="video1" loop autoplay muted>
+            <source src="./assets/images/velio4.mp4" type="video/mp4">
+          </video>
+        </div>
+        <button class="scroll-btn right-arrow">&#10095;</button>
       </div>
       <div class="description">
         <div class="description-text">
@@ -130,14 +169,19 @@
         </button>
       </div>
     </div>
-    <div class="visual-container">
-      <div class="visual4">
-        <video class="video1" loop autoplay muted>
-          <source src="./assets/images/arrt1.mp4" type="video/mp4">
-        </video>        
-        <img class="artist-img" src="./assets/images/arrt2.jpg" alt="app-image">
-        <img class="artist2-img" src="./assets/images/arrt3.jpg" alt="app-image">
-        <img class="zolo-img" src="./assets/images/arrt4.png" alt="app-image">
+
+    <div class="work-visual">
+      <div class="visual-container">
+        <button class="scroll-btn left-arrow">&#10094;</button> 
+        <div class="visual4">
+          <video class="video1" loop autoplay muted>
+            <source src="./assets/images/arrt1.mp4" type="video/mp4">
+          </video>        
+          <img class="artist-img" src="./assets/images/arrt2.jpg" alt="app-image">
+          <img class="artist2-img" src="./assets/images/arrt3.jpg" alt="app-image">
+          <img class="zolo-img" src="./assets/images/arrt4.png" alt="app-image">
+        </div>
+        <button class="scroll-btn right-arrow">&#10095;</button>
       </div>
       <div class="description">
         <div class="description-text">
@@ -157,12 +201,17 @@
         </button>
       </div>
     </div>
-    <div class="visual-container">
-      <div class="visual5">
-        <img class="funds-img" src="./assets/images/ad1.jpg" alt="app-image">
-        <img class="charts-img" src="./assets/images/ad2.jpg" alt="app-image">
-        <img class="stocks-img" src="./assets/images/ad3.jpg" alt="app-image">
-        <img class="profile-img" src="./assets/images/ad4.jpg" alt="app-image">
+
+    <div class="work-visual">
+      <div class="visual-container">
+        <button class="scroll-btn left-arrow">&#10094;</button> 
+        <div class="visual5">
+          <img class="funds-img" src="./assets/images/ad1.jpg" alt="app-image">
+          <img class="charts-img" src="./assets/images/ad2.jpg" alt="app-image">
+          <img class="stocks-img" src="./assets/images/ad3.jpg" alt="app-image">
+          <img class="profile-img" src="./assets/images/ad4.jpg" alt="app-image">
+        </div>
+        <button class="scroll-btn right-arrow">&#10095;</button>
       </div>
       <div class="description">
         <div class="description-text">
@@ -204,10 +253,10 @@
       </div>
       <div class="container4">
         <div class="gifs">
-          <img src="./assets/images/gif1.gif" alt="gif">
-          <img src="./assets/images/gif2.jpg" alt="gif">
-          <img src="./assets/images/gif3.gif" alt="gif">
-          <img src="./assets/images/gif4.gif" alt="gif">
+          <img class="gif1" src="./assets/images/gif1.gif" alt="gif">
+          <img class="gif2" src="./assets/images/gif2.jpg" alt="gif">
+          <img class="gif3" src="./assets/images/gif3.gif" alt="gif">
+          <img class="gif4" src="./assets/images/gif4.gif" alt="gif">
         </div>
       </div>
     </div>
@@ -226,7 +275,7 @@
           <div class="socials">
             <a href="https://x.com/I_triple9"><img class="X" src="./assets/images/twitter.png" alt="X fka Twitter"></a>
             <a href="https://www.linkedin.com/in/john-wright-nyingifa/"><img class="X" src="./assets/images/linkedin.png" alt="linkedin"></a>
-            <img class="X" src="./assets/images/spotify.png" alt="spotify">
+            <a href="https://open.spotify.com/user/31dwwoygc5wrsgxaw6a2ojxciki4?si=kaOWaHACR2Cq_iQ_QZ_LvQ"><img class="X" src="./assets/images/spotify.png" alt="spotify"></a>
             <a href="itriple9"><img class="X" src="./assets/images/discord.png" alt="discord"></a>
             <a href="https://read.cv/itriple9"><img class="X" src="./assets/images/readcv.png" alt="cv logo"></a>
             <img class="X1" src="./assets/images/lens.png" alt="black logo">

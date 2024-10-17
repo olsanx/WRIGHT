@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style2.css">
+  <link rel="stylesheet" href="./css/mediaqueries2.css">
   <title>About</title>
 </head>
 
@@ -23,17 +24,47 @@
         </div>
       </div>
     </div>
+    
     <nav class="links-container">
       <a href="index.html" class="nav-links" data-page="home">Work</a>
       <a href="./index2.html" class="nav-links" data-page="about">About</a>
       <button class="git-button">
-        <span class="green"></span>
-        Get in touch
+        <span class="green"></span> Get in touch
         <img class="arrow" src="./assets/images/outwardarrow.png" alt="arrow">
         <span> <img class="jet" src="./assets/images/jet.png" alt="jet"></span>
       </button>
     </nav>
-    </header>
+   
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  
+    <div class="dropdown-menu">
+      <div class="worknabout">
+        <a href="index.html" class="nav-links">Work</a>
+        <a href="./index2.html" class="nav-links">About</a>
+      </div>
+
+      <button class="git-button">
+        <span class="green"></span> Get in touch
+        <img class="arrow" src="./assets/images/outwardarrow.png" alt="arrow">
+        <span> <img class="jet" src="./assets/images/jet.png" alt="jet"></span>
+      </button>
+
+      <div class="head-container">
+        <div class="socials-head">
+          <a href="https://x.com/I_triple9"><img class="X" src="./assets/images/twitter.png" alt="X fka Twitter"></a>
+          <a href="https://www.linkedin.com/in/john-wright-nyingifa/"><img class="X" src="./assets/images/linkedin.png" alt="linkedin"></a>
+          <a href="https://open.spotify.com/user/31dwwoygc5wrsgxaw6a2ojxciki4?si=kaOWaHACR2Cq_iQ_QZ_LvQ"><img class="X" src="./assets/images/spotify.png" alt="spotify"></a>
+          <a href="itriple9"><img class="X" src="./assets/images/discord.png" alt="discord"></a>
+          <a href="https://read.cv/itriple9"><img class="X" src="./assets/images/readcv.png" alt="cv logo"></a>
+          <img class="X1" src="./assets/images/lens.png" alt="black logo">
+        </div>
+      </div>
+    </div>
+  </header>
     <hr class="header-hr">
     <main class="main-content">
       <section id="about1">
@@ -63,7 +94,7 @@
                   alt="X fka Twitter"></a>
               <a href="https://www.linkedin.com/in/john-wright-nyingifa/"><img class="X"
                   src="./assets/images/linkedin.png" alt="linkedin"></a>
-              <img class="X" src="./assets/images/spotify.png" alt="spotify">
+                  <a href="https://open.spotify.com/user/31dwwoygc5wrsgxaw6a2ojxciki4?si=kaOWaHACR2Cq_iQ_QZ_LvQ"><img class="X" src="./assets/images/spotify.png" alt="spotify"></a>
               <a href="itriple9"><img class="X" src="./assets/images/discord.png" alt="discord"></a>
               <a href="https://read.cv/itriple9"><img class="X" src="./assets/images/readcv.png" alt="cv logo"></a>
               <img class="X1" src="./assets/images/lens.png" alt="black logo">
@@ -119,6 +150,7 @@
           </div>
         </div>
       </section>
+
       <section id="experience">
         <div class="experience-dtls">
           <h2>
@@ -169,6 +201,113 @@
             </div>
           </div>
         </div>
+
+        <div class="tech">
+          <p>
+            [Emerging Tech & Learning]
+          </p>
+          <div class="tech2">
+            <div>
+              <p>
+                AR/VR/Spatial Computing
+              </p>
+            </div>
+            <div>
+              <p>
+                Blockchain and NFTs
+              </p>
+            </div>
+            <div>
+              <p>
+                Creative Direction
+              </p>
+            </div>
+          </div>
+          <div class="tech2">
+            <div>
+              <p>
+                3D and Volumetric Design
+              </p>
+            </div>
+            <div>
+              <p>
+                Voice Interfaces
+              </p>
+            </div>
+            <div>
+              <p>
+                Projection Mapping
+              </p>
+            </div>
+          </div>
+          <div class="tech2">
+            <div>
+              <p>
+                Game Development
+              </p>
+            </div>
+            <div>
+              <p>
+                Wearable Technology
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="collab-style">
+        <div class="collab-head">
+          <h2>
+            Collaboration Style
+          </h2>
+          <p>
+            I thrive in collaborative environments, bridging the gap between design, 
+            development, and business strategy.
+          </p>
+        </div>
+        <div class="collab-image">
+          <img src="./assets/images/exploration.png" alt="collab process">
+        </div>
+      </section>
+
+      <section id="personal-interests">
+        <div class="interests-head">
+          <h2>
+            Personal Interests
+          </h2>
+          <p>
+            Outside of design, I enjoy riding waves, perfecting my tennis backhand, pumping iron at the gym, or dancing the night away at raves. These experiences fuel my creativity and keep me connected to the world I design for.
+          </p>
+        </div>
+        <div class="interests-slide">
+          <video class="int1" loop autoplay muted>
+            <source src="./assets/images/int1.mp4" type="video/mp4">
+          </video>
+          <video class="int2" loop autoplay muted>
+            <source src="./assets/images/int2.mp4" type="video/mp4">
+          </video>
+          <video class="int3" loop autoplay muted>
+            <source src="./assets/images/int3.mp4" type="video/mp4">
+          </video>
+          <video class="int4" loop autoplay muted>
+            <source src="./assets/images/int4.mp4" type="video/mp4">
+          </video>
+          <video class="int5" loop autoplay muted>
+            <source src="./assets/images/int5.mp4" type="video/mp4">
+          </video>
+          <img class="" src="./assets/images/int6.JPG" alt="interests">
+          <video class="int7" loop autoplay muted>
+            <source src="./assets/images/int7.mp4" type="video/mp4">
+          </video>
+          <img class="" src="./assets/images/int8.jpg" alt="interests">
+          <video class="int9" loop autoplay muted>
+            <source src="./assets/images/int9.mp4" type="video/mp4">
+          </video>
+          <img class="" src="./assets/images/int10.jpg" alt="interests">
+          <video class="int11" loop autoplay muted>
+            <source src="./assets/images/int11.mp4" type="video/mp4">
+          </video>
+        </div>
       </section>
     </main>
     <footer>
@@ -181,9 +320,8 @@
           <img class="sociallinks" src="./assets/images/sociallinks.png" alt="socials">
           <div class="socials">
             <a href="https://x.com/I_triple9"><img class="X" src="./assets/images/twitter.png" alt="X fka Twitter"></a>
-            <a href="https://www.linkedin.com/in/john-wright-nyingifa/"><img class="X"
-                src="./assets/images/linkedin.png" alt="linkedin"></a>
-            <img class="X" src="./assets/images/spotify.png" alt="spotify">
+            <a href="https://www.linkedin.com/in/john-wright-nyingifa/"><img class="X"src="./assets/images/linkedin.png" alt="linkedin"></a>
+            <a href="https://open.spotify.com/user/31dwwoygc5wrsgxaw6a2ojxciki4?si=kaOWaHACR2Cq_iQ_QZ_LvQ"><img class="X" src="./assets/images/spotify.png" alt="spotify"></a>
             <a href="itriple9"><img class="X" src="./assets/images/discord.png" alt="discord"></a>
             <a href="https://read.cv/itriple9"><img class="X" src="./assets/images/readcv.png" alt="cv logo"></a>
             <img class="X1" src="./assets/images/lens.png" alt="black logo">

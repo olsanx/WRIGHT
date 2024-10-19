@@ -336,7 +336,7 @@ body {
   max-width: 33rem;
   line-height: 148%;
   color: #1F1F1F;
-  letter-spacing: -0.144px;
+  letter-spacing: 0.144px;
 }
 
 #work {
@@ -443,7 +443,7 @@ body {
   font-size: 1.3375rem;
   color: #343433;
   width: 36.375rem;
-  letter-spacing: -2%;
+  letter-spacing: -0.428px;
   line-height: 120%;
 }
 
@@ -452,7 +452,7 @@ body {
   margin-top: .375rem;
   font-weight: 400;
   font-size: .8625rem;
-  letter-spacing: 0,8%;
+  letter-spacing: 0.1104px;
   line-height: 145%;
   color: #303030;
 }
@@ -480,7 +480,7 @@ body {
   font-weight: 550;
   font-size: .8125rem;
   line-height: 150%;
-  letter-spacing: 0.5%;
+  letter-spacing: 0.065px;
   cursor: pointer;
   color: #000000;
   opacity: 50%;
